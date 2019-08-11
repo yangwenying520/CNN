@@ -12,3 +12,5 @@
 ![airplane_classification/tu/5.png](airplane_classification/tu/5.png)
 
 The key positions of the fuselage and wing of each type of machine are highlighted in red. The color from blue to red represents the degree of attention of CNN. The more red, the higher the degree of attention, and also the CNN identification standard. It is not difficult to find that the red area is the most different of the five aircraft models. According to the order from left to right and top to bottom, the five heat maps are visualized on ResNet18 for five models of boeing787-8, boeing777-300, boeing747-400, boeing737-700 and airbus320. Type, CNN focuses on the aircraft fuselage, including body color, wing color, aircraft trademarks and other major airline trademarks, and for large-area sky, ground buildings and other interference information, CNN can filter, so Accurate classification of five types of models.
+## Model performance
+![airplane_classification/tu/6.png](airplane_classification/tu/6.png)
